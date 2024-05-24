@@ -1,6 +1,7 @@
 "use server";
 
 import prisma from "@/lib/db";
+import { useRouter } from "next/navigation";
 
 export async function createPost(formData: FormData) {
     const title = formData.get('title') as string;
@@ -14,6 +15,10 @@ export async function createPost(formData: FormData) {
             body,
         },
     });
+
+
+
+
 
 }
 

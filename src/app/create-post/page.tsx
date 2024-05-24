@@ -14,7 +14,7 @@ const CreatePost = async () => {
             <h1 className='text-4xl font-semibold tracking-tight mb-6'>Create a New Post</h1>
 
             <Form />
-            <LogoutLink>Log out</LogoutLink>
+            <LogoutLink className='h-10 bg-red-500 px-5 py-2 rounded text-white'>Log out</LogoutLink>
         </main>
     )
 }
